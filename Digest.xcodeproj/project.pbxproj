@@ -17,6 +17,8 @@
 		99A61C0E204B7B1200CB0BA7 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61BE8204B772D00CB0BA7 /* Digest.swift */; };
 		99A61C10204B9E5D00CB0BA7 /* Foundation+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61C0F204B9E5D00CB0BA7 /* Foundation+Digest.swift */; };
 		99A61C12204BA3E500CB0BA7 /* Foundation+Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61C0F204B9E5D00CB0BA7 /* Foundation+Digest.swift */; };
+		99A61C17204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61C16204BB36F00CB0BA7 /* Sha256+Nist.swift */; };
+		99A61C18204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61C16204BB36F00CB0BA7 /* Sha256+Nist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		99A61BFC204B795B00CB0BA7 /* DigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestTests.swift; sourceTree = "<group>"; };
 		99A61C02204B79B800CB0BA7 /* DigestTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DigestTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A61C0F204B9E5D00CB0BA7 /* Foundation+Digest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Digest.swift"; sourceTree = "<group>"; };
+		99A61C16204BB36F00CB0BA7 /* Sha256+Nist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sha256+Nist.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				99A61BDA204B758500CB0BA7 /* Digest.h */,
 				99A61BE8204B772D00CB0BA7 /* Digest.swift */,
 				99A61C0F204B9E5D00CB0BA7 /* Foundation+Digest.swift */,
+				99A61C16204BB36F00CB0BA7 /* Sha256+Nist.swift */,
 			);
 			path = Digest;
 			sourceTree = "<group>";
@@ -311,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99A61C10204B9E5D00CB0BA7 /* Foundation+Digest.swift in Sources */,
+				99A61C17204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */,
 				99A61BEB204B778C00CB0BA7 /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +326,7 @@
 			files = (
 				99A61C12204BA3E500CB0BA7 /* Foundation+Digest.swift in Sources */,
 				99A61C0E204B7B1200CB0BA7 /* Digest.swift in Sources */,
+				99A61C18204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
