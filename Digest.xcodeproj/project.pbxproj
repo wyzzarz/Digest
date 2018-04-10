@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		99A61BDD204B758900CB0BA7 /* Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A61BDA204B758500CB0BA7 /* Digest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99A61BDE204B758A00CB0BA7 /* Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A61BDA204B758500CB0BA7 /* Digest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99968A892078814C007E8134 /* Sha256+CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99968A882078814C007E8134 /* Sha256+CC.swift */; };
+		99968A8A2078826D007E8134 /* Sha256+CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99968A882078814C007E8134 /* Sha256+CC.swift */; };
 		99A61BEB204B778C00CB0BA7 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61BE8204B772D00CB0BA7 /* Digest.swift */; };
 		99A61BF5204B78E100CB0BA7 /* Digest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A61BC7204B716700CB0BA7 /* Digest.framework */; };
 		99A61BFD204B795E00CB0BA7 /* DigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A61BFC204B795B00CB0BA7 /* DigestTests.swift */; };
@@ -41,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99968A882078814C007E8134 /* Sha256+CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sha256+CC.swift"; sourceTree = "<group>"; };
 		99A61BB7204B700700CB0BA7 /* Digest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Digest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A61BC7204B716700CB0BA7 /* Digest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Digest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A61BDA204B758500CB0BA7 /* Digest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Digest.h; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 				99A61BDA204B758500CB0BA7 /* Digest.h */,
 				99A61BE8204B772D00CB0BA7 /* Digest.swift */,
 				99A61C0F204B9E5D00CB0BA7 /* Foundation+Digest.swift */,
+				99968A882078814C007E8134 /* Sha256+CC.swift */,
 				99A61C16204BB36F00CB0BA7 /* Sha256+Nist.swift */,
 				99D8AF0A204CE0E5009BCBE3 /* Sha256.swift */,
 			);
@@ -322,6 +326,7 @@
 				99A61C10204B9E5D00CB0BA7 /* Foundation+Digest.swift in Sources */,
 				99A61C17204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */,
 				99A61BEB204B778C00CB0BA7 /* Digest.swift in Sources */,
+				99968A892078814C007E8134 /* Sha256+CC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +338,7 @@
 				99A61C12204BA3E500CB0BA7 /* Foundation+Digest.swift in Sources */,
 				99A61C0E204B7B1200CB0BA7 /* Digest.swift in Sources */,
 				99A61C18204BB36F00CB0BA7 /* Sha256+Nist.swift in Sources */,
+				99968A8A2078826D007E8134 /* Sha256+CC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
