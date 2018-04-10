@@ -4,4 +4,7 @@
    <FileRef
       location = "container:Digest.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:DigestExample-iOS/DigestExample-iOS.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -1,0 +1,11 @@
+# --------------------------------------------------------------------------------------------------
+# Carthage Update
+#
+# Run carthage-update.sh to install and update Carthage packages.
+# --------------------------------------------------------------------------------------------------
+# carthage update --platform iOS --use-submodules
+
+# WYZzarz
+github "wyzzarz/Digest" ~> 0.1
+
+# Third Party

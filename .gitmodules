@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/Digest"]
+	path = DigestExample-iOS/Carthage/Checkouts/Digest
+	url = https://github.com/wyzzarz/Digest.git
