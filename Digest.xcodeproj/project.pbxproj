@@ -44,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		99968A882078814C007E8134 /* Sha256+CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sha256+CC.swift"; sourceTree = "<group>"; };
+		99968A8B207C4EB2007E8134 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		99968A8C207C4EB2007E8134 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		99A61BB7204B700700CB0BA7 /* Digest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Digest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A61BC7204B716700CB0BA7 /* Digest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Digest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A61BDA204B758500CB0BA7 /* Digest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Digest.h; sourceTree = "<group>"; };
@@ -129,6 +131,8 @@
 		99A61BE0204B760700CB0BA7 /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				99968A8B207C4EB2007E8134 /* LICENSE */,
+				99968A8C207C4EB2007E8134 /* README.md */,
 				99A61BE2204B762300CB0BA7 /* Info-iOS.plist */,
 				99A61BE1204B762300CB0BA7 /* Info-macOS.plist */,
 			);
